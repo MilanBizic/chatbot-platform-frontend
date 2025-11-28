@@ -1,4 +1,3 @@
-
 {
   "name": "chatbot-platform-frontend",
   "private": true,
@@ -6,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
-    "preview": "vite preview",
-    "postinstall": "chmod +x node_modules/.bin/vite || true"
+    "build": "node node_modules/vite/bin/vite.js build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
